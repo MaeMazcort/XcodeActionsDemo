@@ -18,14 +18,13 @@ struct NavigationBar: View {
                     Text("Home")
                 }
                 .tag(1)
-            
+                
             ProfileView()
                 .tabItem {
                     Image(systemName: "person.circle.fill")
                     Text("Profile")
                 }
                 .tag(2)
-            
         }
         .navigationBarBackButtonHidden(true)
         .accentColor(Color.primaryGreen)
