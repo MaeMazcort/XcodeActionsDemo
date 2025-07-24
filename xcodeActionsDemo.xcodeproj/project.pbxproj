@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F1A67982E320B01001BB15E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4F1A67972E320B01001BB15E /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4F7A01C32E31F5E500225190 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F1A67972E320B01001BB15E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		4F7A01B52E31F5E300225190 /* xcodeActionsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcodeActionsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7A01C22E31F5E500225190 /* xcodeActionsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeActionsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7A01CC2E31F5E500225190 /* xcodeActionsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeActionsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 				4F7A01C52E31F5E500225190 /* xcodeActionsDemoTests */,
 				4F7A01CF2E31F5E500225190 /* xcodeActionsDemoUITests */,
 				4F7A01B62E31F5E300225190 /* Products */,
+				4F1A67972E320B01001BB15E /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1A67982E320B01001BB15E /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
