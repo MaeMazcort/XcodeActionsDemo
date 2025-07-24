@@ -15,7 +15,7 @@ struct NavigationBar: View {
             HomeView()
                 .tabItem {
                     Image(systemName: "house.fill")
-                    Text("Test git final?")
+                    Text("This is a change")
                 }
                 .tag(1)
             
