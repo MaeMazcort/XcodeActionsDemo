@@ -23,6 +23,7 @@ struct NavigationBar: View {
                 .tabItem {
                     Image(systemName: "person.circle.fill")
                     Text("Profile test")
+                    // Test
                 }
                 .tag(2)
         }
